@@ -5,7 +5,7 @@
 
 2. __Алгоритм Решения__
 
-![diagram](https://user-images.githubusercontent.com/115179912/205456172-47f5d33d-8693-454f-9113-c548a9dcdb4a.png)
+![Картинка](diagram.png)
 
 3. __Программный код__ 
 
