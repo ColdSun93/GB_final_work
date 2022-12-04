@@ -7,7 +7,27 @@
 
 ![Картинка](diagram.png)
 
-3. __Программный код__ 
+3. __Отображение программного кода__ 
 
 ```c#
- 
+
+string[] firstArray = { "Hello", "2", "world", ":-)" };
+string[] arrayTwo = new string[firstArray.Length];
+int indexTwoArr = 0;
+
+for (int i = 0; i < firstArray.Length; i++)
+    {
+        if (firstArray[i].Length <>= 3)
+        {
+            arrayTwo[indexTwoArr] = array[i];
+            indexTwoArr++;
+        }
+    }
+
+Console.Write("[");
+    for (int i = 0; i < arrayTwo.Length; i++)
+    {
+        if (i != arrayTwo.Length - 1) Console.Write($"{arrayTwo[i]}, ");
+        else Console.Write($"{arrayTwo[i]}");
+    }
+    Console.WriteLine("]");
